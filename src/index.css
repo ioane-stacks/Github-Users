@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Netflix Sans Bolder';
+  font-family: 'Netflix Sans Regular';
   color: #989898;
 
 }
@@ -81,7 +81,6 @@ body {
 .typeahead input[type='search']::-webkit-search-cancel-button {
   width: 20px;
   height: 20px;
-  /* -webkit-appearance: none; */
   appearance: none;
   background-image: url('./images/closeBtn@4x.png');
   background-repeat: no-repeat;

@@ -24,7 +24,7 @@ function Users({ find }) {
                 return (
                     <li key={id}>
                         <img src={avatar_url} alt="img-unavailable" />
-                        <a href={html_url} target="_blank"><h3>{login}</h3></a>
+                        <a href={html_url} target="_blank" rel='noreferrer'><h3>{login}</h3></a>
                         <h4>{type}</h4>
                     </li>
                 );

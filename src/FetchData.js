@@ -29,7 +29,8 @@ export const FetchData = (url, find) => {
         getUsers();
         findUser();
         return () => {
-            window.removeEventListener('input', setCurrentUser([]));
+            window.removeEventListener('input', findUser());
+            window.removeEventListener('input', getUsers());
         }
     }, [users, url]);
 

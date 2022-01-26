@@ -6,7 +6,7 @@ const AppHeader = () => {
     return (
         <div className="app-header">
             <h2>GitHub Typeahead</h2>
-            <img className="github-logo" src={githubLogo} alt="image-unavailable" />
+            <img className="github-logo" src={githubLogo} alt="nope" />
         </div>
     );
 }

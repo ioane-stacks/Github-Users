@@ -31,7 +31,7 @@ export const FetchData = (url, find) => {
         return () => {
             window.removeEventListener('input', setCurrentUser([]));
         }
-    }, [users, url]);
+    }, [url, users]);
 
     return { currentUser, isLoading, isError };
 } 

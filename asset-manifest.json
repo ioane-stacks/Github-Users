@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Github-Users/static/css/main.e4d57785.css",
-    "main.js": "/Github-Users/static/js/main.2a9ce374.js",
+    "main.js": "/Github-Users/static/js/main.b920e18f.js",
     "static/media/NetflixSansRegular.ttf": "/Github-Users/static/media/NetflixSansRegular.31acc1edd781a074d7f9.ttf",
     "index.html": "/Github-Users/index.html",
     "main.e4d57785.css.map": "/Github-Users/static/css/main.e4d57785.css.map",
-    "main.2a9ce374.js.map": "/Github-Users/static/js/main.2a9ce374.js.map"
+    "main.b920e18f.js.map": "/Github-Users/static/js/main.b920e18f.js.map"
   },
   "entrypoints": [
     "static/css/main.e4d57785.css",
-    "static/js/main.2a9ce374.js"
+    "static/js/main.b920e18f.js"
   ]
 }

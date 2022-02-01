@@ -4,11 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <Routes>
-        <Route except path="/" element={<Typeahead />} />
-      </Routes>
-    </Router>
+    <Typeahead />
   );
 }
 
